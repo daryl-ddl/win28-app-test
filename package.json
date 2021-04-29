@@ -3,7 +3,7 @@
   "name": "win28-electron-react-2",
   "description": "Win28 Desktop App",
   "author": "Dandem Labs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
   "main": "public/electron.js",
   "build": {
