@@ -17,12 +17,12 @@ function createWindow () {
 
   if ( process.env.REACT_APP_ENV === 'dev' ) {
     win.loadURL('http://localhost:3000');
-    win.webContents.openDevTools();
   } else {
     win.loadURL(`file://${path.join(__dirname, '../build/index.html')}`);
   }
   
   win.setFullScreen(true);
+  win.webContents.openDevTools();
 }
 
 app.whenReady().then(() => {
